@@ -1,5 +1,6 @@
 # PES-Final-Project
 
+
 ## Acceleration Detector
 
 ### Summary
@@ -21,6 +22,7 @@ After opening up a serial terminal (baud rate = 38400, data size = 8, parity = n
 | target color | r=0, g=255, b=0 |
 | target acceleration | 10.0 m/s^2 |
 
+
 ## Testing
 
 ### Test Outline
@@ -37,7 +39,9 @@ This was a test done in software in order to ensure proper functionality of circ
 
 #### cmd processor test
 This test was done manually by typing in various commands (both valid and invalid) and ensuring the command processor responded as expected. The commands that were entered as well as the response can be viewed in the images below. Based on these images, the command processor test passed successfully.
+
 ![Manual_Command_Tests](https://user-images.githubusercontent.com/54907470/206053897-0a8c347b-6c12-4693-8e3d-e5a4a56fc0de.PNG)
+
 ![Manual_Command_Tests_2](https://user-images.githubusercontent.com/54907470/206054328-efc637b8-524f-44c9-80fa-148d5933baec.PNG)
 
 #### system test
