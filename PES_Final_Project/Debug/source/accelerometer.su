@@ -1,0 +1,2 @@
+../source/accelerometer.c:29:6:accelerometer_init	8	static
+../source/accelerometer.c:39:7:read_linear_acceleration	40	static

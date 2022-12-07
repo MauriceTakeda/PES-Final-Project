@@ -1,0 +1,2 @@
+../source/rgb_led.c:31:6:RGB_LED_Init	8	static
+../source/rgb_led.c:94:6:RGB_LED_SetColor	24	static

@@ -1,0 +1,5 @@
+../source/cmd_processor.c:50:6:accumulate_line	16	static
+../source/cmd_processor.c:93:6:process_command	88	static
+../source/cmd_processor.c:153:6:handle_color	32	static
+../source/cmd_processor.c:211:6:handle_acceleration	24	static
+../source/cmd_processor.c:246:6:handle_print	16	static

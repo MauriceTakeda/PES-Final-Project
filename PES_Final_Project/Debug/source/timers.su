@@ -1,0 +1,7 @@
+C:\Users\mauri\Documents\MCUXpressoIDE_11.6.0_8187\workspace\PES_Final_Project\CMSIS/core_cm0plus.h:804:22:NVIC_SetPriority	24	static
+../source/timers.c:25:6:TIMER_Init	8	static
+../source/timers.c:39:12:TIMER_Now	8	static
+../source/timers.c:49:6:TIMER_Reset	8	static
+../source/timers.c:59:12:TIMER_Get	8	static
+../source/timers.c:70:6:TIMER_Poll	16	static
+../source/timers.c:84:6:SysTick_Handler	8	static
