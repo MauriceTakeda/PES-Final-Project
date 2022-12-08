@@ -6,6 +6,12 @@
 ### Summary
 The purpose of this project is to build a linear acceleration detector using the FRDM-KL25z board. This acceleration detector works by changing the color of the RGB LED based on whether or not the board's linear acceleration is greater than a set target acceleration value. The project incorporates a UART command processor so that the user can input commands in order to interact with the program as it runs on the board. The user has the ability to set the RGB LED color that will be lit up upon reaching the target linear acceleration. The user also has the ability to set the target acceleration value in m/s^2, and print the measured acceleration values every 1 second. The color of the RGB LED should be white when the measured acceleration value is less than the target.
 
+### Functionality Completed
+All functionality has been completed as described in the project proposal the command processor, RGB LED, and accelerometer all have been verified to be working as discussed in the testing section below.
+
+### Observations / Challenges
+The one issue that I had in developing this project was that I did not realize the accelerometer measures the acceleration of gravity even when the board is not moving. The way that I got around this issue was by instructing the user to keep the board flat on a surface, and not rotate it when moving the board. This way, the x and y axis accelerations are not affected by the gravity, and the correct linear acceleration can be calculated.
+
 ### Usage
 After opening up a serial terminal (baud rate = 38400, data size = 8, parity = none, stop bits = 2) and flashing the FRDM-KL25z with project code, place the board flat on a surface. Move the board while keeping it flat. If the board is rotated as it is moving, the acceleration due to gravity will negatively affect the acceleration measurements. Upon reaching an acceleration greater than or equal to the target value, the RGB LED should change colors.
 
